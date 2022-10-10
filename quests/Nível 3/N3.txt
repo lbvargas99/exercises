@@ -1,0 +1,70 @@
+<?php
+
+/**
+ * Escreva um validador de sudoku. Essa função deverá retornar true se o array de 2 dimensões representar um sudoku válido e false caso contrário.
+ * Para um sudoku ser considerado válido:
+ *  - Cada linha deve ter números de 0 a 9 exatamente uma vez.
+ *  - Cada coluna deve ter números de 0 a 9 exatamente uma vez.
+ *  - Cada bloco 3x3 deve ter os números de 0 a 9 exatamente uma vez.
+ *
+ *Exemplos:
+ * sudokuValidator([
+[ 1, 5, 2, 4, 8, 9, 3, 7, 6 ],
+[ 7, 3, 9, 2, 5, 6, 8, 4, 1 ],
+[ 4, 6, 8, 3, 7, 1, 2, 9, 5 ],
+[ 3, 8, 7, 1, 2, 4, 6, 5, 9 ],
+[ 5, 9, 1, 7, 6, 3, 4, 2, 8 ],
+[ 2, 4, 6, 8, 9, 5, 7, 1, 3 ],
+[ 9, 1, 4, 6, 3, 7, 5, 8, 2 ],
+[ 6, 2, 5, 9, 4, 8, 1, 3, 7 ],
+[ 8, 7, 3, 5, 1, 2, 9, 6, 4 ]
+]) ➞ true
+ *
+ * sudokuValidator([
+[ 1, 1, 2, 4, 8, 9, 3, 7, 6 ],
+[ 7, 3, 9, 2, 5, 6, 8, 4, 1 ],
+[ 4, 6, 8, 3, 7, 1, 2, 9, 5 ],
+[ 3, 8, 7, 1, 2, 4, 6, 5, 9 ],
+[ 5, 9, 1, 7, 6, 3, 4, 2, 8 ],
+[ 2, 4, 6, 8, 9, 5, 7, 1, 3 ],
+[ 9, 1, 4, 6, 3, 7, 5, 8, 2 ],
+[ 6, 2, 5, 9, 4, 8, 1, 3, 7 ],
+[ 8, 7, 3, 5, 1, 2, 9, 6, 4 ]
+]) ➞ false
+ * @param $x
+ */
+function sudokuValidator(array $x):bool{}
+
+/**
+ * Você receberá uma sequência de inteiros. Seu trabalho é pegar uma sequência continua de pedaços dessa sequência na qual a soma desses elementos é a máxima possível.
+ * Você apenas precisa retornar a maior soma obtida.
+ *
+ * Por exemplo: imagine que a sequência fornecida for [3, -10, 4, -1, 2, 3, 6, -7]. A maior soma de uma sequência seria [4, -1, 2, 3, 6], na qual a soma é 14.
+ *
+ * Exemplos:
+ * maxSum([-1, -9, 0, 8, -76, 5, 3]) ➞ 8
+ * maxSum([3, -10, 4, -1, 2, 3, 6, -7]) ➞ 14
+ * maxSum([1, -9, 0, -8, 76, 5, 43]) ➞ 124
+ *
+ * Notas:
+ * Podem existir sequências de até 10.000 inteiros em uma sequência.
+ * É possível receber uma sequência com 0 itens, nesse caso, deverá ser retornado 0.
+ */
+function maxSum(array $nums):int{}
+
+/**
+ * Descubra o número do cartão de crédito abaixo sabendo que o mesmo é um multiplo de 123457 e o digito de luhn é válido.
+ * O Número do cartão deve ter o seguinte padrão: 543210******1234
+ *
+ * @return string
+ */
+function encontrarNumeroCartao():string{}
+
+/**
+ * A função irá receber um array de inteiros e retornar o primeiro elemento não repetido.
+ * Ex: input: [2,2,3,1,1,6] - output: 3
+ *
+ * @param array $array - Array contendo inteiros
+ * @return int
+ */
+function primeiroValorNaoRepetido(array $array):int{}
